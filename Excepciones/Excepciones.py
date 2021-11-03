@@ -8,7 +8,6 @@ def division(num1, num2):
         print("No se puede dividir entre 0")
         return "Operacion erronea"
 
-
 sw = False
 
 while not sw:
