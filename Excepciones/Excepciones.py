@@ -8,13 +8,11 @@ def division(num1, num2):
         print("No se puede dividir entre 0")
         return "Operacion erronea"
 
-sw = False
-
-while not sw:
+while True:
     try:
         op1 = int(input("Operador 1: "))
         op2 = int(input("Operador 2: "))
-        sw = True
         print("Resultado de la division: ", division(op1, op2))
+        break;
     except ValueError:
         print("Introduce valores numericos")
