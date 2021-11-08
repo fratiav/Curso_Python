@@ -1,5 +1,5 @@
-# Excepciones a errores inesperados
-# Try - Except
+#Excepciones a errores inesperados
+#Try - Except
 
 def division(num1, num2):
     try:
